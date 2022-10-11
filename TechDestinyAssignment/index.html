@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="https://www.thetechdestiny.com/wp-content/uploads/2022/06/The-Tech-Destiny_Light-Bg-1-1-869x488.png" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Icon style font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>TechDestiny</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navigation Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg navbar-light bg-light py-3 py-lg-0 px-lg-5">
+        <div class="container">
+            <a class="navbar-brand ml-lg-3" href="index.html">
+                <h1 class="m-0 display-5"><span><img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/The-Tech-Destiny_Light-Bg-1-1-869x488.png" class="logo img-fluid" alt="logo"></span><span class="text-primary"></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse px-lg-3" id="navbarNavDropdown">
+                <ul class="navbar-nav m-auto py-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home"><i class="fa-solid fa-house-user"></i>Home</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#programs" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">
+                            <i class="fa-sharp fa-solid fa-code"></i></i>
+                            Programs
+                        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#crashcourse" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">Crash Course</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#c_program">C Program</a></li>  
+                                <li><a class="dropdown-item" href="#c">C++</a></li>  
+                                <li><a class="dropdown-item" href="#java">Java</a></li> 
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="#computer_science" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">Computer Science</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#data_structure_algorithm">Data Structure & Algorithm</a></li>  
+                                        <li><a class="dropdown-item" href="#python">Python</a></li>  
+                                        <li><a class="dropdown-item" href="#sql_database">Sql Database</a></li>
+                                        <li><a class="dropdown-item" href="#android_app_development">Android App Development</a></li>
+                                        <li><a class="dropdown-item" href="#cyber_security">Cyber Security</a></li>
+                                        <li><a class="dropdown-item" href="#data_science">Data Science</a></li>
+                                        <li><a class="dropdown-item" href="#artificial_intelligence">Artificial Intelligence</a></li>
+                                        <li><a class="dropdown-item" href="#machine_learning">Machine Learning</a></li>
+                                        <li><a class="dropdown-item" href="#cloud_computing">Cloud Computing</a></li>
+                                        <li><a class="dropdown-item" href="#block_chain">Block Chain</a></li>  
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#web_development" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">Web Development</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#mern_stack_developer">Mern Stack Developer</a></li> 
+                                                <li class="dropdown-submenu">
+                                                    <a class="dropdown-item dropdown-toggle" href="#non_technical" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">Non-Technical</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                        <li><a class="dropdown-item" href="#graphic_design">Graphic Design</a></li>  
+                                                        <li><a class="dropdown-item" href="#vfx_animation">VFX & Animation</a></li>  
+                                                        <li><a class="dropdown-item" href="#excel">Excel</a></li>  
+                                                        <li><a class="dropdown-item" href="#stock_market">Stock Market</a></li>  
+                                                        <li><a class="dropdown-item" href="#business_writing_speaking_program">Business Writing & Speaking Program</a></li> 
+                                                        <li class="dropdown-submenu">
+                                                            <a class="dropdown-item dropdown-toggle" href="#civil_mech_electrical" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More">Civil, Mech & Electrical</a>
+                                                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                                <li><a class="dropdown-item" href="#autocard">Auto Card</a></li>  
+                                                                <li><a class="dropdown-item" href="#hybrid_electrical_vehicles">Hybrid Electrical Vehicles</a></li>  
+                                                                <li><a class="dropdown-item" href="#iot">IOT</a></li> 
+                                                                <li class="dropdown-submenu">
+                                                                    <a class="dropdown-item dropdown-toggle" href="#management" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Hover To See More" >Management</a>
+                                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                                        <li><a class="dropdown-item" href="#digital_marketing">Digital Marketing</a></li>
+                                                                        <li><a class="dropdown-item" href="#human_resourse">Human Resource</a></li>
+                                                                        <li><a class="dropdown-item" href="#sales_marketing"></a>Sales & Marketing</li>
+                                                                        <li><a class="dropdown-item" href="#finance">Finance</a></li>
+                                                                    </ul>
+                                                                    <li><a class="dropdown-item" href="#bundle">Bundle</a></li>
+                                                                </li> 
+                                                            </ul>
+                                                        </li> 
+                                                    </ul>
+                                                </li> 
+                                            </ul>
+                                        </li>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" data-bs-toggle="tooltip" data-bs-placement="bottom" title="About"><i class="fa-regular fa-address-card"></i>About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#lms" data-bs-toggle="tooltip" data-bs-placement="bottom" title="LMS"><i class="fa-sharp fa-solid fa-file-audio"></i>LMS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Blog"><i class="fa-sharp fa-solid fa-blog"></i>Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Contact"><i class="fa-sharp fa-solid fa-id-badge"></i>Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cart" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Cart"><i class="fa-sharp fa-solid fa-cart-plus"></i>Cart</a>
+                </li>
+            </div>
+            <a href="#search" class="btn btn-menu d-none d-lg-block" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Search" style="background-color:var(--bs-primary); color: #ffffff;"><i class="fa-sharp fa-solid fa-magnifying-glass"></i>Search</a>
+        </div>
+    </nav> 
+    <!-- Navigation End-->
+
+    <!-- Header Start-->
+    <div class="container-fluid d-flex bg-dark align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12 hero-text text-center">
+                    <h3 class="text-white font-weight-normal mb-3" data-aos="zoom-in-right">____ We are here for you</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1500" style="-webkit-text-stroke: 4px #ffffff;">Grow Your Skills To Advance Your Career Path</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text text-dark d-none">Become certified in the domain, you upskill in with, recognized certifications.</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-mg-auto pt-5">
+                        <a href="#" class="btn btn-light mr-4" target="_self" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click To Enroll">Enroll Now  <i class="fa-sharp fa-solid fa-file-signature"></i></a>
+                    </div>
+                </div>
+                <div class="about-img col-lg-6 col-md-6 col-12 ">
+                    <img class="img-fluid w-100% shadow-sm mx-auto d-block" src="https://c4.wallpaperflare.com/wallpaper/65/348/54/eyes-line-circles-information-face-hd-wallpaper-preview.jpg" alt="">
+                </div>
+                <div class="arrow bounce">
+                    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="container-fluid" id="">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+                <div class="col-lg-9 col-md-6 mb-4 mx-auto service d-flex align-items-center justify-content-center">
+                    <div class="card border-light mb-3" style="max-width: 490px;">
+                      <div class="card-body text-dark text-center">
+                        <h1 class="card-title">We are a Group of Professionals</h1>
+                        <p class="card-text">Explore new skills, deepend existing passions, and get lost in creativity. What you find just might surprise and inspire you.</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="programs">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+                <div class="col-lg-4 col-md-6 mb-4 mx-auto service-box d-flex align-items-center justify-content-center">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-user-tie service-icon bg-primary text-white mr-3"></i> Professional Mentors</div>
+                        <div class="card-body text-dark text-center">
+                            <h5 class="card-title">We have a group of professional & Industry Expert mentors with more than 5 years of experience.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-solid fa-laptop-code service-icon bg-primary text-white mr-3"></i> 50+ Programs</div>
+                        <div class="card-body text-dark text-center">
+                            <h5 class="card-title">Industry curated programs for scratch to in-depth learning assistance.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                    <div class="card border-light mb-3" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-headset service-icon bg-primary text-white mr-3"></i> 24/7 Support</div>
+                        <div class="card-body text-dark text-center">
+                            <h5 class="card-title">Support services are here to ensure our student's success. We provide 24/7 remote support.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Start-->
+    <div class="abouts container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Us</h1>
+            </div>
+            <div class="row align-items-center" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <div class="col-lg-5 mb-4 mb-lg-0 mx-auto">
+                    <img class="img-fluid" src="https://images.pexels.com/photos/5474028/pexels-photo-5474028.jpeg?auto=compress&cs=tinysrgb&w=600" alt="About Us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 my-lg-0">
+                        <h3 class="text-primary">Who We Are</h3>
+                        <p class="text-dark">The Tech Destiny allows thousands of graduates and current students to do Online Bootcamp and internship training to pursue their careers in Technical and Non-Technical fields. Our small effort can help them change their lives.</p>
+                        <div class="card-footer bg-transparent border-light text-center text-info" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+                            <a class="btn" href="#">Read More</a>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=o7sowYVsvYU&t=9s" target="_blank">
+                            <img class="img-fluid rounded mx-auto d-block" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" src="https://media.tenor.com/3gu7TKGjONUAAAAC/youtube-logo.gif" alt="About Us" style="height:10rem; width: 11rem; margin-top: -5px;" title="Click To Watch">
+                        </a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container pt-5" id="service-main">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Our Services</h1>
+            </div>
+            <h1 class="h5 position-relative d-flex align-items-center justify-content-center text-dark"  data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">Let’s start the journey towards success.</h1>
+        </div>
+        <div class="row row-box " data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+            <div class="col-lg-4 col-md-6 mb-4 mx-auto service-box d-flex align-items-center justify-content-center">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-universal-access service-icon bg-primary text-white mr-3"></i> Lifetime Access</div>
+                    <div class="card-body text-dark text-center">
+                        <h5 class="card-title">Enjoy an access of a lifetime to all your study materials and video lectures.</h5>
+                    </div>
+                    <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-headset service-icon bg-primary text-white mr-3"></i> 24/7 Support</div>
+                    <div class="card-body text-dark text-center">
+                        <h5 class="card-title">Support services are here to ensure our student's success. We provide 24/7 remote support.</h5>
+                    </div>
+                    <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-certificate service-icon bg-primary text-white mr-3"></i> Certifications</div>
+                    <div class="card-body text-dark text-center">
+                        <h5 class="card-title">Become certified in the domain you upskill in with recognized certifications.</h5>
+                    </div>
+                    <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-solid fa-laptop-code service-icon bg-primary text-white mr-3"></i> 50+ Industry Level Programs</div>
+                    <div class="card-body text-dark text-center">
+                        <h5 class="card-title">Industry curated programs for scratch to in-depth learning assistance.</h5>
+                    </div>
+                    <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-globe service-icon bg-primary text-white mr-3"></i> Real World Projects</div>
+                    <div class="card-body text-dark text-center">
+                        <h5 class="card-title">In a real-world project, the people you work with are people with positions in the industry.</h5>
+                    </div>
+                    <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card border-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-light text-danger text-center"><i class="fa-sharp fa-solid fa-user-tie service-icon bg-primary text-white mr-3"></i> Industry Expert Mentors</div>
+                    <div class="card-body text-dark text-center">
+                        <h5 class="card-title">Established in vision by group of dedicated people to provide College was made.</h5>
+                    </div>
+                    <div class="card-footer bg-transparent border-light text-center text-info"><a class="btn" href="#">Read More</a></div>
+                </div>
+            </div>
+          </div>
+    </div>
+      <!-- Service End -->
+
+    <div class="how-section1">
+        <div class="row">
+            <div class="col-md-6 content" data-aos="fade-up" data-aos-easing="linear">
+                <h4>Advance Program by The Tech Destiny</h4>
+                <h4 class="subheading">With Industrial Training & Internship<h4>
+                    <p class="text-muted">Live video mentoring sessions for 1-on-1 interaction backed by recorded video lectures.</p>
+                    <div class="card-footer bg-transparent border-light text-center text-info" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300"><a class="btn" href="#">Explore</a></div>
+                </div>
+                <div class="col-md-6 how-img" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                    <img src="./assets/{EA3A2B30-4003-45E9-B488-0D29B4E85637}.png" class="img-fluid mx-auto d-block" alt="">
+            <!-- <img src="https://media.istockphoto.com/photos/cyber-security-it-engineer-working-on-protecting-network-against-picture-id1322517295?b=1&k=20&m=1322517295&s=170667a&w=0&h=x4Kmx8fQytr6VPfuKwE381xf-rfiBFctyXvpb7o5ju8=" class="img-fluid mx-auto d-block" alt="">
+            <h1 class="heading">Our Specialty</h1>
+            <p class="subpara">Our education platform  plays a statewide services includes the Acquired</p>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 firstService d-flex align-items-center justify-content-center">
+                <div class=" border-light mb-3" style="max-width: 20rem;">
+                    <div class="bg-transparent border-light text-warning text-center"><i class="fa-sharp fa-solid fa-user-tie service-icon bg-primary text-white mr-3"></i> Professional Mentors</div>
+                    <div class=" text-dark text-center">
+                    <h5 class="text-light sizeh">10+ Years of Highly Experienced Mentors.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 secondService d-flex align-items-center justify-content-center">
+                <div class=" border-light mb-3" style="max-width: 20rem;">
+                    <div class="bg-transparent border-light text-warning text-center"><i class="fa-solid fa-laptop-code service-icon bg-primary text-white mr-3"></i> Advance Programs</div>
+                    <div class=" text-dark text-center">
+                    <h5 class="text-light sizeh">Programs are designed as per Industry Standards.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 thirdService d-flex align-items-center justify-content-center">
+                <div class=" border-light mb-3" style="max-width: 20rem;">
+                    <div class="bg-transparent border-light text-warning text-center"><i class="fa-solid fa-laptop-code service-icon bg-primary text-white mr-3"></i> Industry Expert Sessions</div>
+                    <div class=" text-dark text-center">
+                    <h5 class="text-light sizeh">Special Session from Industry Experts.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 forthService d-flex align-items-center justify-content-center">
+                <div class=" border-light mb-3" style="max-width: 20rem;">
+                    <div class="bg-transparent border-light text-warning text-center"><i class="fa-solid fa-laptop-code service-icon bg-primary text-white mr-3"></i> ISO Certified Certifications</div>
+                    <div class=" text-dark text-center">
+                    <h5 class="text-light sizeh">ISO Certified Certifications, ISC Certified Certification, Brilliance and LOR.</h5>
+                    </div>
+                </div>
+            </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Partners Start -->
+    <div class="container pt-5" id="partners">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Partners</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Our Working Partners</h1>
+            </div>
+        </div>
+        <div class="container-fluid" id="">
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+                    <div class="col-lg-9 col-md-6 mb-4 mx-auto service d-flex align-items-center justify-content-center">
+                        <div class="card border-light mb-3" style="max-width: 490px;">
+                          <div class="card-body">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/11.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/3.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/2.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/4.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/6.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/6.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/7.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/7.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/8.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/8.png" class="img-fluid max-width: 100% height: auto" alt="">
+                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/1.png" class="img-fluid max-width: 100% height: auto" alt="">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Partners End -->
+
+    <!-- Courses Start -->
+    <div class="container pt-5" id="courses">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Courses</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Our Top Selling  Courses</h1>
+            </div>
+            <h1 class="h5 position-relative d-flex align-items-center justify-content-center text-dark"  data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">Click To View the Course</h1>
+        </div>
+        <div class="row row-box " data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/07/Data-Science.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science</h5>
+                        <p class="card-text">Data Science is an essential part of many industries today, given the massive amounts of data that are produced, and is one of the most debated topics in IT circles.</p>
+                        <a href="#" class="btn btn-primary stretched-link">View Course</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/python-final-01-1-2048x1152.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Learn Python - Interactive Python</h5>
+                        <p class="card-text">Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation.</p>
+                        <a href="#" class="btn btn-primary stretched-link">View Course</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto mb-4 service-box d-flex align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/07/AI-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Artificial Intelligence</h5>
+                        <p class="card-text">Artificial Intelligence is an essential part of many industries today, given the massive amounts of data that are produced, and is one of the most debated topics in IT circles.</p>
+                        <a href="#" class="btn btn-primary stretched-link">View Course</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Courses End -->
+
+    <!-- Completion Certificate Start-->
+    <div class="how-section1">
+        <div class="row">
+            <div class="col-md-6 content1" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <h4>COURSE COMPLETION CERTIFICATE</h4>
+                <h4 class="subheading">ISO certified<h4>
+                    ----
+                <p class="text-muted">After successful completion of the course you’ll be rewarded with Certificate of Completion. You can also unlock a Letter of Recommendation and Brilliance Certificate based on your performance on the course.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/09/INTERNSHIP-SAMPLE-PRINT-860x560.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Completion Certificate End-->
+
+    <!-- Top Mentor Start-->
+    <div class="container-fluid py-5" id="review">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Top Mentors</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Meet Our Top Mentors</h1>
+            </div>
+            <h1 class="h5 position-relative d-flex align-items-center justify-content-center text-dark"  data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">Meet our Mind Shaping Members </h1>
+            <div class="container mt-5 mb-5" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <div class="row g-2">
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center px-4">
+                            <div class="user-image"> <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-4.27.31-PM.jpeg" class="rounded-circle" width="70" height="70"> </div>
+                            <div class="user-content">
+                                <h5 class="mb-0 text-dark">Ranjan Raja</h5> <span class="text-warning">Cyber Security</span>
+                                <p class="text-dark">Networking and Network Security Expert (Cisco) Having more than 7 years of experience in Ethical Hacking, Network Security.</p>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fa-brands fa-facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pinterest"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center px-4">
+                            <div class="user-image"> <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-5.27.15-PM.jpeg" class="rounded-circle" width="68" height="68"> </div>
+                            <div class="user-content">
+                                <h5 class="mb-0 text-dark">Gunjan Sindhu</h5> <span class="text-warning">Human Resource</span>
+                                <p>11 years of teaching experience at Graduate and Post Graduate Level. Providing knowledge to learners in the feild.</p>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fa-brands fa-facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pinterest"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center px-4">
+                            <div class="user-image"> <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-6.02.41-PM.jpeg" class="rounded-circle" width="69" height="69"> </div>
+                            <div class="user-content">
+                                <h5 class="mb-0">Hitendra Dixit</h5> <span class="text-warning">Python , AI , SQl</span>
+                                <p class="text-dark">Python, MySQL, Postgres SQL, SSRS, SSMS, MS Excel, Power BI & Tableau 5+ years in teaching. Also having 5 star on Hackerrank.</p>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fa-brands fa-facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pinterest"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card p-3 text-center px-4">
+                            <div class="user-image"> <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-4.26.49-PM.jpeg" class="rounded-circle" width="70" height="70"> </div>
+                            <div class="user-content">
+                                <h5 class="mb-0">Ekta Tyagi</h5> <span class="text-warning">Web Development</span>
+                                <p class="text-dark">Ekta has 7+ years of experience in software development where she has worked as a software engineer in UTS Meerut.</p>
+                            </div>
+                            <div class="social-links">
+                                <a href="#"><i class="fa-brands fa-facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pinterest"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- Top Mentor End -->
+
+    <!-- Student Education Start -->
+    <section class="education-work">
+        <div class="container headings text-center text-light">
+            <h1>Lets Start Your Education</h1>
+            <p>Becoming an expert in AI will enable you to challenge current ways of working and change the way you perceive most things. Highlighting yourself as someone who strives for positive change, as well as an eagerness to learn the latest technology</p>
+        </div>
+        <div class="container d-flex justify-content-around align-items-center text-center">
+            <div>
+                <h1 class="text-warning"><span><i class="fa-sharp fa-solid fa-people-group service-icon bg-primary text-light mr-3"></i></span> <span class="count">10</span><span>K<sup>+</sup></span></h1>
+                <p class="text-light">Students</p>
+            </div>
+            <div>
+                <h1 class="text-warning"><span><i class="fa-solid fa-laptop-code service-icon bg-primary text-light mr-3"></i></span> <span class="count">50</span><span><sup>+</sup></span></h1>
+                <p class="text-light">Programs</p>
+            </div>
+            <div>
+                <h1 class="text-warning"><span><i class="fa-sharp fa-solid fa-user-tie service-icon  bg-primary text-light mr-3"></i></span> <span class="count">30</span><span><sup>+</sup></span></h1>
+                <p class="text-light">High Expert Mentors</p>
+            </div>
+            <div>
+                <h1 class="text-warning"><span><i class="fa-sharp fa-solid fa-handshake service-icon  bg-primary text-light"></i></span> <span class="count">100</span><span>%</span></h1>
+                <p class="text-light">Placements</p>
+            </div>
+        </div>
+    </section>
+    <!-- Student Education End -->
+
+    <!-- Hiring Partners Start-->
+    <div class="container pt-5" id="partners">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Partners</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Our Hiring Partners</h1>
+            </div>
+        </div>
+        <div class="container-fluid" id="">
+            <div class="container">
+                <div class="row" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+                    <div class="col-lg-9 col-md-6 mb-4 mx-auto d-flex align-items-center justify-content-center carrouselPartners">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <span class="d-block d-flex justify-content-around">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/a4.jpg" alt="infosys">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/b4.jpg" alt="tcs">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/b2.jpg" alt="itc">
+                                    </span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="d-block d-flex justify-content-around">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/b3.jpg" alt="accenture">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/c4.jpg" alt="oracle">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/c3.jpg" alt="icici">
+                                    </span>
+                                </div>
+                                <div class="carousel-item">
+                                    <span class="d-block d-flex justify-content-around">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/c5.jpg" alt="swiggy">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/e4.jpg" alt="zoomcar">
+                                        <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/a5.jpg" alt="flipkart">
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hiring Partners End -->
+
+
+    <!-- Review Start -->
+    <div class="container-fluid py-5" id="review">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px lightblue;">Testimonials</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Students Review</h1>
+            </div>
+            <h1 class="h5 position-relative d-flex align-items-center justify-content-center text-dark"  data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">What Students Say About us</h1>
+        </div>
+        <div class="container-lg" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>It was very good sessions</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/IMG_20220507_125247_2-Azra-Kazmi_338-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Azra Zainab</b></div>
+                                                    <div class="details text-dark">Finance</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>I loved the way of teaching, very from basics and every point explained and covered. Nice experience of this online course.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/1566279794353_photo-302D073-Wandhekar-Sourabh-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Wandhekar Sourabh Bhagwan</b></div>
+                                                    <div class="details text-dark">Autocad</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>Great experience regarding classes and the recording session is good</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/compress1650692390307-chandra-mouli-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Boddu Chandramouli</b></div>
+                                                    <div class="details text-dark">Autocad</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>I really liked this course and the way of teaching was really nice , also the company Tech Destiny is always helpful. I want the mentors to contact and get in touch with the intern at least once a week and also company related work should be given to smart interns. overall its a great experience. Hoping for the stipend as i really worked hard for projects.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/ajay_photo-Ajay-Karwasara-150x150.jpeg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Ajay Karwasara</b></div>
+                                                    <div class="details text-dark">Data Science</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>I liked this platform. It Helped me to learn many new things and made me know where I am lacking and it thought how to improve that.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/Compress-jpeg-png_-Reduce-image-size-D-R-ISWARYA-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Duggireddy Iswarya</b></div>
+                                                    <div class="details text-dark">Human Resource Management</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>It was nice experience and Great learning through your Institution.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/IMG_20220615_082153_436-Jaya-Aadithya-Alva-K-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Jaya Adithya Alva K</b></div>
+                                                    <div class="details text-dark">Digital Marketing</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>It was a really great opportunity that organization has been provided for us.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/10/IMG_20220822_101420_348-Saroja-Basnett-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Saroja Basnett</b></div>
+                                                    <div class="details text-dark">Human Resource Management</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>Had a great experience with the tech destiny, was easy going with the course here and It was great experience and learned many things.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/ramya-Yedire-Ramya-150x150.jpg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Yedire Ramya</b></div>
+                                                    <div class="details text-dark">Digital Marketing</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>It was a great experience for me to work in the marketing field in tech destiny.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/08/5376C79A-67D3-40A4-B0B3-C090F648D872-Abhitha-K-150x150.jpeg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Abhitha</b></div>
+                                                    <div class="details text-dark">IBS</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>Had a great experience with the tech destiny, was easy going with the course here and It was great experience and learned many things.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-7.45.10-PM-150x150.jpeg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Jyotismaan</b></div>
+                                                    <div class="details text-dark">Graphics Designer, Infosys</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>I completed Advance Web development course here. They do provide good Study Material and learning environment. And the Mentors are very interactive.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-7.44.17-PM-150x150.jpeg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Kajal Bharti</b></div>
+                                                    <div class="details text-dark">Salesforce Developer, Wipro</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonial">
+                                            <p>The best thing about The Tech Destiny is their doubt solving service. The leaderboard and tests engage students to perform better. Sufficient content. Really amazing experience.</p>
+                                        </div>
+                                        <div class="media">
+                                            <img src="https://www.thetechdestiny.com/wp-content/uploads/2022/06/WhatsApp-Image-2022-06-25-at-7.43.49-PM-150x150.jpeg" class="mr-3" alt="">
+                                            <div class="media-body">
+                                                <div class="overview">
+                                                    <div class="name text-primary"><b>Vikas Prasad</b></div>
+                                                    <div class="details text-dark">Software Developer, Accenture</div>
+                                                    <div class="star-rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>										
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            <i class="fa fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- Review End -->
+
+    <!-- FAQ Start -->
+    <div class="faq">
+        <div class="row">
+            <div class="col-md-4 content1" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <h3>HAVE A QUESTION?</h3>
+                <h1 class="display-1 text-dark fw-bold">FAQ<h1>
+                    ----
+                <p class="text-muted fw-normal">We are here to help you 7 days a week and respond within 24 hours. Plus, you can find most answers to your questions right on this page.</p>
+            </div>
+            <div class="col-md-8 faqsub" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                HOW THE TECH DESTINY DIFFERENT FROM OTHERS?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fw-normal">The content of the courses and program at The Tech Destiny are specially designed by the IIT, IIM & Stanford alumni, instant one-on-one doubt resolution, practical learning with over 1OO+ problems, and Capstone projects in each course are some of the unique features of this online learning platform which makes it different from others.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                WHAT IS FREE DEMO CLASS & HOW CAN I REGISTER FOR IT?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fw-normal">Demo is short for demonstration, where you will get an idea about our classroom program. You can register for it by submitting your details through registration form in our website.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                HOW DO I GET STARTED?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fw-normal">Visit our website thetechdestiny.com . Apply by submitting your details in the registration form . Once we receive application our counsellor will connect you within 24 hours.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                ARE DEMO CLASSES FREE?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fw-normal">Demo class is usually free but if student agrees to join you then fee depend on the no. of sessions/class irrespective of the duration of classes.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                DO ALL PROGRAMS HAVE LIVE DOUBT SESSIONS?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fw-normal">All Industrial Expert Session have live  one to one doubt clearing sessions.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                HOW DO I GET IN TOUCH WITH QUIRES RELATED QUESTIONS?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body fw-normal">If you have any Doubts please feel free to reach us<br>Call us at 96O694379O<br>Mail us at admissions@thetechdestiny.com.</div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-easing="linear">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="300">
+                <div class="col-lg-8">
+                    <form action="https://formspree.io/f/xbjwbvjk" method="POST" id="my-form">
+                        <div class="row mb-3">
+                            <label for="text"  class="col-sm-2 col-form-label text-dark">Your Name :-</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="Name" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="number"  class="col-sm-2 col-form-label text-dark">Your Number :-</label>
+                            <div class="col-sm-10">
+                                <input type="number" name="Number" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label text-dark">Your Email :-</label>
+                            <div class="col-sm-10">
+                                <input type="email" name="Email-Id" class="form-control" id="inputEmail3">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="course" class="col-sm-2 col-form-label text-dark">Your Course :-</label>
+                            <div class="col-sm-10">
+                                <select class="form-select" aria-label="Default select example" id="inputEmail3">
+                                    <option selected>Select Course</option>
+                                    <option value="1">Data Structure & Algorithm</option>
+                                    <option value="2">Python</option>
+                                    <option value="3">SQl Database</option>
+                                    <option value="4">Android App Development</option>
+                                    <option value="5">Cyber Security</option>
+                                    <option value="6">Data Science</option>
+                                    <option value="7">Artificial Intelligence</option>
+                                    <option value="8">Machine Learning</option>
+                                    <option value="9">Cloud Computing</option>
+                                    <option value="10">Block Chain</option>
+                                    <option value="11">Frontend Developer</option>
+                                    <option value="12">Mean Stack Developer</option>
+                                    <option value="13">C++</option>
+                                    <option value="14">Java</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label text-dark">Other :-</label>
+                            <div class="col-sm-10">
+                                <input type="textarea" name="other" class="form-control form-control-lg-5" id="colFormLabelLg inputEmail3" placeholder="Send Message">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label text-dark">Send Message :-</label>
+                            <div class="col-sm-10">
+                                <input type="textarea" name="Message" class="form-control form-control-lg-5" id="colFormLabelLg inputEmail3" placeholder="Send Message">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Click To Submit">Submit</button>
+                    </form>
+                    <div id="status"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <div id="buttontop" class="d-flex justify-content-end d-block fixed-bottom">
+        <a href="#" class="to-top">Back to top</a>
+    </div>
+
+    <!-- Footer Start -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Computer Science</h5>
+                    <ul>
+                        <li><a href="#">App Development</a></li>
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Cyber Security</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">SQL Database</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Structure & Algorithm</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Management & Non-Tech</h5>
+                    <ul>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Human Resource</a></li>
+                        <li><a href="#">Marketing & Sales</a></li>
+                        <li><a href="#">Stock Market</a></li>
+                        <li><a href="#">Business Etiquette</a></li>
+                        <li><a href="#">VFX & Animation</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Civil & Mechanical</h5>
+                    <ul>
+                        <li><a href="#">AutoCad</a></li>
+                        <li><a href="#">Catia and Ansys</a></li>
+                        <li><a href="#">IC Engine</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Electrical</h5>
+                    <ul>
+                        <li><a href="#">Embedded System</a></li>
+                        <li><a href="#">Hybrid Electric Vehicles</a></li>
+                        <li><a href="#">Internet Of Things</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Quick Links</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">You can find us here</h5>
+                    <p>No 108, 27th Main Road, Sector 2 HSR Layout, Bangaluru, Karnataka 560102</p>
+                    <div class="d-flex justify-content-center mb-4 footer-link">
+                        <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-facebook" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook"></i></a>
+                        <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-twitter" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"></i></a>
+                        <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-linkedin-in" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin"></i></a>
+                        <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-solid fa-map-location-dot" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Location"></i></a>
+                        <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-youtube" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Youtube"></i></a>
+                        <a class="btn btn-light btn-social mr-6" href="#"><i class="fa-brands fa-instagram" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 fw-bold text-warning">Contact Us</h5>
+                    <p><i class="fa-solid fa-phone"></i> +91 9606943790</p>
+                    <p><i class="fa-solid fa-envelope"></i> support@thetechdestiny.com</p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <a class="text-white" href="#">Privacy</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Terms</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">FAQs</a>
+                    <span class="px-3">|</span>
+                    <a class="text-white" href="#">Help</a>
+                </div>
+                <div class="text-center text-md-right">
+                    <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Suraj</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Suraj</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- js -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/app.js"></script>
+    <script>
+        $('.count').counterUp({
+        delay:20,
+        time: 3000
+    })
+    </script>
+</html>
